@@ -14,7 +14,7 @@
   <tbody>
     <% @authors.each do |author| %>
       <tr>
-        <td><%= author.frst_name %></td>
+        <td><%= author.first_name %></td>
         <td><%= author.last_name %></td>
         <td><%= link_to 'Show', author %></td>
         <td><%= link_to 'Edit', edit_author_path(author) %></td>
